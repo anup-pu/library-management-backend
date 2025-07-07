@@ -16,7 +16,8 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                             "http://localhost:3000", 
-                            "https://library-management-fro-git-11aaca-anup-kumars-projects-55203fdc.vercel.app"
+                            "https://library-management-fro-git-11aaca-anup-kumars-projects-55203fdc.vercel.app",
+                            "https://library-management-frontend-drab.vercel.app"
                             
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
