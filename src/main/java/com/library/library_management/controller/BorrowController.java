@@ -20,7 +20,12 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/borrow")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {
+  "http://localhost:3000",
+  "https://library-management-fro-git-11aaca-anup-kumars-projects-55203fdc.vercel.app",
+  "https://library-management-frontend-d8fquqxjz.vercel.app"
+})
+
 public class BorrowController {
 
     @Autowired
