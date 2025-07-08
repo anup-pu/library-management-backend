@@ -15,7 +15,8 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                         .allowedOrigins(
-                            "http://localhost:3000", 
+                            "http://localhost:3000",
+                            "https://library-management-frontend-drab.vercel.app", // ✅ custom or main domain
                             "https://library-management-fro-git-11aaca-anup-kumars-projects-55203fdc.vercel.app"
                             
                         )
